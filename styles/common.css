@@ -1,0 +1,38 @@
+body {
+    margin:0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.8em;
+    font-weight: 300;
+}
+
+h2 {
+    color: #cbcbcb;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.h1-negrita {
+    font-weight: 600;
+}
+
+.p-azul {
+    color: #78deff;
+}
+
+.grande {
+    font-size:1.4em;
+    font-weight: 900;
+    letter-spacing: -2px;
+}

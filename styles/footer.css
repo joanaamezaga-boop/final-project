@@ -1,0 +1,25 @@
+.footer > .text-wrapper {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .final-space {
+    height: 80px;
+    background-color: #191a1d;
+}
+
+.footer > .text-wrapper > .text {
+    display:flex;
+    background-color: #3b3e46;
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: -1px;
+    justify-content: center;
+    align-items:baseline;
+    padding-top: 12px;
+    border: 2px solid;
+    border-color: #686e79;
+    gap: 3px;
+}

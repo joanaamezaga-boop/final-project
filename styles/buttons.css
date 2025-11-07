@@ -1,0 +1,43 @@
+.btn-gris {
+    height: 60px;
+    background-color: #3b3e46;
+    color:#cbcbcb;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding:10px 25px;
+    border: 1px solid #3b3e46;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn-verde {
+    height: 70px;
+    background-color: #4bce79;
+    color:#000000;
+    font-family: "Lato", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding:10px 25px;
+    border: 1px solid #4bce79;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: -0.4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn-negro {
+    height: 70px;
+    background-color: #000000;
+    color:#ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding:10px 25px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing: -0.4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

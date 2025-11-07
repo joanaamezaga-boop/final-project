@@ -1,0 +1,85 @@
+.navigation-wrapper{
+    height: 100px;
+    background-color:  #000000;
+    color: #cbcbcb;
+    display:grid;
+    grid-template-columns: 1fr 4fr 3fr;
+    align-items:center;
+    padding-left: 20px;
+    gap:35px;
+    letter-spacing: -1px;
+}
+
+.navigation-wrapper > .logo img {
+    height: 40px;
+}
+
+.navigation-wrapper > .links-title-wapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-left: 20px;
+}
+
+.navigation-wrapper > .links-title-wapper > .title {
+    color:#f4d66c;
+    font-weight: 900;
+    font-size: 1.1em;
+
+}
+
+.navigation-wrapper > .links-title-wapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.navigation-wrapper > .links-title-wapper > .links-wrapper > .nav-link a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:900;
+    font-size: 1.6em;
+}
+
+.navigation-wrapper > .links-title-wapper > .links-wrapper > .desplegable {
+    margin-left: 20px;
+    color:#95999f;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.navigation-wrapper > .links-title-wapper > .links-wrapper > .desplegable::after {
+    content: "\f078";
+    font-family: "Font Awesome 7 Free";
+    margin-left: 12px;
+    font-size: 0.7em;
+}
+
+.navigation-wrapper > .buttons-wrapper { 
+    display: flex;
+    justify-content:space-between;
+    margin-right: 10px;
+    margin-left:-12px;
+    gap: 12px;
+}
+
+.buttons-wrapper > .boton-desplegable > .btn::after {
+    content: "\f078";
+    font-family: "Font Awesome 7 Free";
+    margin-left: 12px;
+    color:#4bce79;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.buttons-wrapper > .busqueda i {
+    color:#95999f;
+    font-weight: 900;
+    font-size: 2.5em;
+    padding: 10px 9px 0px 9px;
+}
+
+
+
+
